@@ -7,7 +7,10 @@ This repository implements the EVaR objective in graph form described in the pap
 
 ## Optomizing a portfolio
 
-With ```mus```, ```sigmas```, and ```pi``` being 
+With ```mus```, ```sigmas```, and ```pi``` lists of the respective mixture component means, covariance matrices, and mixture weights of your Gaussian mixture return model, ```L``` the leverage limit, and ```alpha``` the EVaR level, simply run
+```
+w,delta,evar = min_EVaR_portfolio(alpha,L,mus,sigmas,pi)
+```.
 
 ## Citing
 If you use `gm_evar_portfolio` in your research, please consider citing us by using the following bibtex:
