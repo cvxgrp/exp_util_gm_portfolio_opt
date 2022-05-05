@@ -5,9 +5,9 @@ Covariance prediction via convex optimization (`covpred`) in Python.
 This repository implements the EVaR objective in graph form described in the paper [Portfolio construction with Gaussian mixture returns and exponential utility via convex optimization](https://web.stanford.edu/~boyd/papers/exp_util_gm_ret_portfolio.html).
 
 
-## Running the examples
+## Optomizing a portfolio
 
-There are two examples, both of which can be found in the `examples` folder. To see how the package is used, we recommend checking out the examples.
+With ```mus```, ```sigmas```, and ```pi``` being 
 
 ## Citing
 If you use `gm_evar_portfolio` in your research, please consider citing us by using the following bibtex:
