@@ -1,4 +1,4 @@
-# exp_util_gm_ret_portfolio
+# exp_util_gm_portfolio_opt
 Minimal entropic value at risk (EVaR) portfolio construction under a Gaussian mixture model of returns in Python. 
 This repository implements the EVaR objective in graph form described in the paper [Portfolio construction with Gaussian mixture returns and exponential utility via convex optimization](https://web.stanford.edu/~boyd/papers/exp_util_gm_ret_portfolio.html).
 
