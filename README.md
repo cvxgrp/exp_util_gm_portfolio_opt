@@ -31,10 +31,7 @@ w.value
 
 ## Optimizing a portfolio with EVaR
 
-After loading the EVaR portfolio optimization code via 
-
-```from gm_evar_portfolio import min_EVaR_portfolio```
-
+After loading the EVaR portfolio optimization code via  ```from gm_evar_portfolio import min_EVaR_portfolio```
 and with ```L``` the leverage limit and ```alpha``` the EVaR level, simply run
 
 ```w,delta,evar = min_EVaR_portfolio(alpha,L,mus,Sigmas,pi)``` 
