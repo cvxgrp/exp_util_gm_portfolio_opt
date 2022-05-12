@@ -36,7 +36,7 @@ and with ```L``` the leverage limit and ```alpha``` the EVaR level, simply run
 
 ```w,delta,evar = min_EVaR_portfolio(alpha,L,mus,Sigmas,pi)``` 
 
-to generate a minimal EVaR portfolio. 
+to generate the minimum EVaR portfolio. 
 
 ## Citing
 If you use `gm_evar_portfolio` in your research, please consider citing us by using the following bibtex:
