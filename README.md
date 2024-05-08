@@ -42,7 +42,7 @@ to generate the minimum EVaR portfolio.
 If you use `gm_evar_portfolio` in your research, please consider citing us by using the following bibtex:
 ```
 @article{luxenberg2024portfolio,
-  title={Portfolio construction with Gaussian mixture returns and exponential utility via convex optimization},
+  title={Portfolio Construction with Gaussian Mixture Returns and Exponential Utility via Convex Optimization},
   author={Luxenberg, Eric and Boyd, Stephen},
   journal={Optimization and Engineering},
   volume={25},
